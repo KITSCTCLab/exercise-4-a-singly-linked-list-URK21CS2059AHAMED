@@ -5,7 +5,7 @@ class Node:
     """
     Provide necessary documentation
     """
-    def _init_(self, data=None, next=None):
+    def __init__(self, data=None, next=None):
         """
         Provide necessary documentation
         """
@@ -17,7 +17,7 @@ class LinkedList:
     """
     Provide necessary documentation
     """
-    def _init_(self):
+    def __init__(self):
         """
         Initialize the head
         """
